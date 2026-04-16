@@ -175,7 +175,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 0 20px 0px 20px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .c-2 {
@@ -187,5 +187,60 @@ a {
     margin: 0 4px;
     cursor: pointer;
 }
+
+#offers {
+    display: flex;
+    gap: 20px;
+}
+
+.left-box, .right-box {
+    background-size: 35% 95%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 30px 40px 30px;
+    border-radius: 5px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 6px;
+    width: 350px;
+    height: 270px;    
+}
+
+h3 {
+    font-size: 35px;
+    padding: 0 20px 10px 15px;
+}
+.boxes {
+    font-size: 19px;
+    padding: 0 20px 0px 15px;
+    color: rgb(89, 92, 99);
+}
+
+.left-box {
+    background-image: url(./assests/current-offers.avif)
+
+}
+.right-box {
+    background-image: url(./assests/american-heroes.avif);
+}
+
+.learn-more-btn-2 {
+    background-color: white;
+    border: none;
+    font-size: medium;
+    color: rgb(57, 60, 65);
+    width: 300px;
+    padding: 7px 15px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
 
 
