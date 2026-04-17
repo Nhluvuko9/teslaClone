@@ -8,6 +8,13 @@
     font-weight: 600px;
 }
 
+#top-banner {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -93,7 +100,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px 0px 20px;
-    margin-top: 32px;
+    margin-top: 50px;
 }
 
 .model-3, .model-y, .model-x, .model-s {
@@ -202,7 +209,7 @@ a {
     justify-content: center;
     align-items: left;
     padding: 10px 20px 10px 20px;
-    margin: 40px 30px 40px 30px;
+    margin: 50px 30px 40px 30px;
     border-radius: 5px;
     background-color: rgb(243, 242, 242);
     border-radius: 6px;
@@ -293,6 +300,14 @@ h3 {
     font-size: 19px;
     padding: 0 20px 0px 20px;
 }
+
+.cards-2-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
 .blue-btn-2 {
     background-color: rgb(62, 106, 225);
     border: none;
@@ -301,7 +316,7 @@ h3 {
     width: 160px;
     height: 40px;
     padding: 0 15px;
-    margin: 0 5px 0px 20px;
+    margin-left: 20px;
     border-radius: 4px;
     cursor: pointer;
 }
