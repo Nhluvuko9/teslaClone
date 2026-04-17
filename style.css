@@ -180,18 +180,23 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 20px 0px 20px;
     margin-top: 15px;
 }
 
 .c-2 {
-    background-color: rgb(189, 189, 190);
+    background-color: rgb(243, 242, 242);
+    border-radius: 4px;
+    cursor: pointer;;
     border: none;
     width: 12px;
     height: 12px;
     border-radius: 50%;
     margin: 0 4px;
     cursor: pointer;
+}
+.c-2:hover {
+    transition: 0.3s;
+    background-color: rgb(79, 79, 79);
 }
 
 #cards-1 {
@@ -258,6 +263,7 @@ h3 {
     align-items: center;
     color: white;
     margin-top: 50px;
+    margin-bottom: 50px;
     gap: 30px;
 }
 
@@ -333,11 +339,68 @@ h3 {
     cursor: pointer;
 }
 
-#cards-3 {
+.map-img {
+    width: 1245px;
+    height: 550px;
+    padding: 50px 20px 20px 40px;
+}
+
+#charger-info {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 100px 0px 100px;
+}
+
+.map-p {
+    color: rgb(89, 92, 99);
+    font-size: large;
+}
+
+.power-img {
+    width: 45px;
+    height: 45px;
+}
+
+.charger-img {
+    width: 45px;
+    height: 45px;
+}
+
+#map-btns {
+    display: flex;
+}
+
+.map-btn-1 {
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border: none;
+    padding: 7px 15px;
+    margin: 0px 10px 0px 100px;
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.map-btn-2 {
+    background-color: rgb(243, 242, 242);
+    color: black;
+    border: none;
+    padding: 7px 15px;
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cards-3 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
     align-items: center;
-    padding: 50px 20px 0px 20px;
+    padding: 50px 20px 0px 30px;
     margin-top: 50px;
     cursor: pointer;
 }
@@ -346,14 +409,15 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 5px;
-    width: 290px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 10px 5px;
     color: white;
+    border-radius: 5px;
+    width: 290px;
+    height: 300px;
+    padding: 10px 5px;
+    margin-right: 25px;
 }
 
 .card-3-1 {
