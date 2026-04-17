@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
     font-weight: 600px;
 }
 
@@ -132,7 +131,7 @@ a {
     margin-top: 10px;
 }
 
-.on-vi-btn {
+.blue-btn {
     background-color: rgb(62, 106, 225);
     border: none;
     font-size: small;
@@ -188,7 +187,7 @@ a {
     cursor: pointer;
 }
 
-#offers {
+#cards-1 {
     display: flex;
     gap: 20px;
 }
@@ -241,6 +240,145 @@ h3 {
     cursor: pointer;
 }
 
+#cards-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    gap: 30px;
+}
 
+#travel-safer {
+    background-image: url(./assests/travel-safer.avif);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: flex-start;
+    width: 800px;
+    height: 520px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 8px; 
+}
 
+#features {
+    background-image: url(./assests/features.avif);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: flex-start;
+    width: 374px;
+    height: 520px;
+    padding: 0 20px 0px 20px;
+    border-radius: 8px;
+    
+}
 
+.ts-title {
+    font-size: 35px;
+    padding: 350px 20px 10px 20px;
+}
+.ts-paragraph {
+    font-size: 19px;
+    padding: 0 20px 0px 20px;
+}
+.blue-btn-2 {
+    background-color: rgb(62, 106, 225);
+    border: none;
+    font-size: small;
+    color: white;
+    width: 160px;
+    height: 40px;
+    padding: 0 15px;
+    margin: 0 5px 0px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.learn-more-btn-3 {
+    background-color: white;
+    border: none;
+    font-size: medium;
+    color: rgb(57, 60, 65);
+    width: 160px;
+    padding: 7px 15px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cards-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 0px 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.card-3-1, .card-3-2, .card-3-3, .card-3-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    width: 290px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px 5px;
+    color: white;
+}
+
+.card-3-1 {
+    background-image: url(./assests/solar-panels.avif);
+}
+
+.card-3-2 {
+    background-image: url(./assests/powerwall.avif);
+}
+
+.card-3-3 {
+    background-image: url(./assests/megapack.avif);
+}
+
+.card-3-4 {
+    background-image: url(./assests/solar-roof.avif);
+}
+
+#bottom-banner {
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 92, 99);
+    margin-top: 50px;
+}
+
+.disclaimer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0px 0 200px;
+    font-size: smaller;
+}
+
+.footer-list {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+ 
